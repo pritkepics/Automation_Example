@@ -1,0 +1,10 @@
+Test automation framework using Selenium WebDriver with Java,JUnit,Cucumber and Maven, following Page Object Model Design Pattern
+------------------------------------------------------------------------------------------------------------------------------------------
+
+1. This project demonstrates POM framework and how it can be used 
+   with selenium to automate any application. JUnit is used as test framework, 
+   and Cucumber is used to achieve BDD and paramiterization. 
+2. For data source Cucumber is used.
+3. For failed cases, screenshot can be found in Goibibo_01\screenShots folder
+4. Reports can be found in finLeap/test-outout folder.
+7. Logs can be found in finLeap/application.log.

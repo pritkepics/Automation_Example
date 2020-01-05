@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="67.488818">
+<testcase classname="HomePage feature" name="Create a user with correct inputs" time="14.563671">
+<system-out><![CDATA[When user logs in to the application using user "Luke" and password "Skywalker".passed
+When user is in the home page...............................................passed
+When user clicks on create link.............................................passed
+Then user enters fname "Mesut"..............................................passed
+Then user will provide lname "Özil".........................................passed
+Then user will give stDate "2020-01-01".....................................passed
+Then user should enter email "mesut.ozil@gmail.com".........................passed
+Then user clicks Add button.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="HomePage feature" name="Update a user details" time="14.840589">
+<system-out><![CDATA[When user logs in to the application using user "Luke" and password "Skywalker".passed
+When user is in the home page...............................................passed
+When user Clicks on user "Mesut Özil" entry.................................passed
+When user clicks on edit link...............................................passed
+Then user enters fname "Zlatan".............................................passed
+Then user clicks on update button...........................................passed
+And updated name "MesutZlatan Özil" should reflect..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="HomePage feature" name="delete a user" time="17.863183">
+<system-out><![CDATA[When user logs in to the application using user "Luke" and password "Skywalker".passed
+When user is in the home page...............................................passed
+When user Clicks on user "MesutZlatan Özil" entry...........................passed
+When user clicks on delete link.............................................passed
+Then user clicks on OK button...............................................passed
+Then the username "MesutZlatan Özil" should not be visible..................passed
+Then close browser..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login feature" name="check Titile" time="9.837528">
+<system-out><![CDATA[When user is in the login page..............................................passed
+Then Title should be "CafeTownsend-AngularJS-Rails".........................passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login feature" name="Login functionality test" time="10.383847">
+<system-out><![CDATA[When user is in the login page..............................................passed
+When User enters username "Luke" and password "Skywalker"...................passed
+And clicks on Login button..................................................passed
+Then validate usename "Luke" is visible.....................................passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
