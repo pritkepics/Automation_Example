@@ -1,0 +1,11 @@
+If I had more time I'd worked on the followin:
+
+1. Include more test cases.
+   > Negative inputs
+   > duplicate entries
+   > date format
+2. For reporting , testNG is better
+   > Include testNG in the runner class
+   > Add extent reporting, for better readabily.
+   
+3. Improve the documentation, comments.
